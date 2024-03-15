@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Recap</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <h2>Assi e allineamenti</h2>
+            <div>Panel 1</div>
+        </div>
+        <div class="container example">
+            <div class="item self-start">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item self-end">5</div>
+            <div class="item">6</div>
+        </div>
+        <div class="container">
+            <ul>
+                <li>diplay:flex</li>
+                <li>flex-direction</li>
+                <li>justify-content</li>
+                <li>align-items</li>
+                <li>order</li>
+                <li>align-self</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>Dimensioni Flessibili</h2>
+            <div>Panel 2</div>
+        </div>
+        <div class="container flex-grow example">
+            <div class="item">1</div>
+            <div class="item grow-2">ottieni il doppio delle spazio "avanzato" rispetto agli altri</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+            <div class="item">6</div>
+        </div>
+        <div class="container item-700 example">
+            <div class="item">1</div>
+            <div class="item shrink-0">mantieni larghezza originale 650px (non restringersi rispetto agli altri elementi flessibili)</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+            <div class="item">6</div>
+        </div>
+        <div class="container">
+            <ul>
+                <li>flex-grow</li>
+                <li>flex-shrink</li>
+                <li>flex-basis</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>Colonne e righe</h2>
+            <div>Panel 3</div>
+        </div>
+        <div class="container col-3 flex-wrap align-row example">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+            <div class="item">6</div>
+        </div>
+        <div class="container">
+            <ul>
+                <li>flex-wrap</li>
+                <li>align-content: allineamento delle righe (può essere utilizzato solo se presente flex-wrap)</li>
+            </ul>
+        </div>
+    </section>
+
+</body>
+
+</html>
